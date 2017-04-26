@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2FC7DB1EAE8868005EED81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FC7DA1EAE8868005EED81 /* AppDelegate.swift */; };
+		3F2FC7DD1EAE8868005EED81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FC7DC1EAE8868005EED81 /* ViewController.swift */; };
+		3F2FC7E01EAE8869005EED81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FC7DE1EAE8869005EED81 /* Main.storyboard */; };
+		3F2FC7E21EAE8869005EED81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FC7E11EAE8869005EED81 /* Assets.xcassets */; };
+		3F2FC7E51EAE8869005EED81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FC7E31EAE8869005EED81 /* LaunchScreen.storyboard */; };
+		3F2FC7F01EAE8869005EED81 /* HedgehogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FC7EF1EAE8869005EED81 /* HedgehogTests.swift */; };
+		3F2FC7FB1EAE8869005EED81 /* HedgehogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FC7FA1EAE8869005EED81 /* HedgehogUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F2FC7EC1EAE8869005EED81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F2FC7CF1EAE8868005EED81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2FC7D61EAE8868005EED81;
+			remoteInfo = Hedgehog;
+		};
+		3F2FC7F71EAE8869005EED81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F2FC7CF1EAE8868005EED81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2FC7D61EAE8868005EED81;
+			remoteInfo = Hedgehog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F2FC7D71EAE8868005EED81 /* Hedgehog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hedgehog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2FC7DA1EAE8868005EED81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F2FC7DC1EAE8868005EED81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F2FC7DF1EAE8869005EED81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F2FC7E11EAE8869005EED81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F2FC7E41EAE8869005EED81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F2FC7E61EAE8869005EED81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2FC7EB1EAE8869005EED81 /* HedgehogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HedgehogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2FC7EF1EAE8869005EED81 /* HedgehogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HedgehogTests.swift; sourceTree = "<group>"; };
+		3F2FC7F11EAE8869005EED81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2FC7F61EAE8869005EED81 /* HedgehogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HedgehogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2FC7FA1EAE8869005EED81 /* HedgehogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HedgehogUITests.swift; sourceTree = "<group>"; };
+		3F2FC7FC1EAE8869005EED81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F2FC7D41EAE8868005EED81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2FC7E81EAE8869005EED81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2FC7F31EAE8869005EED81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F2FC7CE1EAE8868005EED81 = {
+			isa = PBXGroup;
+			children = (
+				3F2FC7D91EAE8868005EED81 /* Hedgehog */,
+				3F2FC7EE1EAE8869005EED81 /* HedgehogTests */,
+				3F2FC7F91EAE8869005EED81 /* HedgehogUITests */,
+				3F2FC7D81EAE8868005EED81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F2FC7D81EAE8868005EED81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F2FC7D71EAE8868005EED81 /* Hedgehog.app */,
+				3F2FC7EB1EAE8869005EED81 /* HedgehogTests.xctest */,
+				3F2FC7F61EAE8869005EED81 /* HedgehogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F2FC7D91EAE8868005EED81 /* Hedgehog */ = {
+			isa = PBXGroup;
+			children = (
+				3F2FC7DA1EAE8868005EED81 /* AppDelegate.swift */,
+				3F2FC7DC1EAE8868005EED81 /* ViewController.swift */,
+				3F2FC7DE1EAE8869005EED81 /* Main.storyboard */,
+				3F2FC7E11EAE8869005EED81 /* Assets.xcassets */,
+				3F2FC7E31EAE8869005EED81 /* LaunchScreen.storyboard */,
+				3F2FC7E61EAE8869005EED81 /* Info.plist */,
+			);
+			path = Hedgehog;
+			sourceTree = "<group>";
+		};
+		3F2FC7EE1EAE8869005EED81 /* HedgehogTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2FC7EF1EAE8869005EED81 /* HedgehogTests.swift */,
+				3F2FC7F11EAE8869005EED81 /* Info.plist */,
+			);
+			path = HedgehogTests;
+			sourceTree = "<group>";
+		};
+		3F2FC7F91EAE8869005EED81 /* HedgehogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2FC7FA1EAE8869005EED81 /* HedgehogUITests.swift */,
+				3F2FC7FC1EAE8869005EED81 /* Info.plist */,
+			);
+			path = HedgehogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F2FC7D61EAE8868005EED81 /* Hedgehog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2FC7FF1EAE8869005EED81 /* Build configuration list for PBXNativeTarget "Hedgehog" */;
+			buildPhases = (
+				3F2FC7D31EAE8868005EED81 /* Sources */,
+				3F2FC7D41EAE8868005EED81 /* Frameworks */,
+				3F2FC7D51EAE8868005EED81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hedgehog;
+			productName = Hedgehog;
+			productReference = 3F2FC7D71EAE8868005EED81 /* Hedgehog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F2FC7EA1EAE8869005EED81 /* HedgehogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2FC8021EAE8869005EED81 /* Build configuration list for PBXNativeTarget "HedgehogTests" */;
+			buildPhases = (
+				3F2FC7E71EAE8869005EED81 /* Sources */,
+				3F2FC7E81EAE8869005EED81 /* Frameworks */,
+				3F2FC7E91EAE8869005EED81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2FC7ED1EAE8869005EED81 /* PBXTargetDependency */,
+			);
+			name = HedgehogTests;
+			productName = HedgehogTests;
+			productReference = 3F2FC7EB1EAE8869005EED81 /* HedgehogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F2FC7F51EAE8869005EED81 /* HedgehogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2FC8051EAE8869005EED81 /* Build configuration list for PBXNativeTarget "HedgehogUITests" */;
+			buildPhases = (
+				3F2FC7F21EAE8869005EED81 /* Sources */,
+				3F2FC7F31EAE8869005EED81 /* Frameworks */,
+				3F2FC7F41EAE8869005EED81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2FC7F81EAE8869005EED81 /* PBXTargetDependency */,
+			);
+			name = HedgehogUITests;
+			productName = HedgehogUITests;
+			productReference = 3F2FC7F61EAE8869005EED81 /* HedgehogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F2FC7CF1EAE8868005EED81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "PRIDE Prep";
+				TargetAttributes = {
+					3F2FC7D61EAE8868005EED81 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					3F2FC7EA1EAE8869005EED81 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F2FC7D61EAE8868005EED81;
+					};
+					3F2FC7F51EAE8869005EED81 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F2FC7D61EAE8868005EED81;
+					};
+				};
+			};
+			buildConfigurationList = 3F2FC7D21EAE8868005EED81 /* Build configuration list for PBXProject "Hedgehog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F2FC7CE1EAE8868005EED81;
+			productRefGroup = 3F2FC7D81EAE8868005EED81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F2FC7D61EAE8868005EED81 /* Hedgehog */,
+				3F2FC7EA1EAE8869005EED81 /* HedgehogTests */,
+				3F2FC7F51EAE8869005EED81 /* HedgehogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F2FC7D51EAE8868005EED81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2FC7E51EAE8869005EED81 /* LaunchScreen.storyboard in Resources */,
+				3F2FC7E21EAE8869005EED81 /* Assets.xcassets in Resources */,
+				3F2FC7E01EAE8869005EED81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2FC7E91EAE8869005EED81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2FC7F41EAE8869005EED81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F2FC7D31EAE8868005EED81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2FC7DD1EAE8868005EED81 /* ViewController.swift in Sources */,
+				3F2FC7DB1EAE8868005EED81 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2FC7E71EAE8869005EED81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2FC7F01EAE8869005EED81 /* HedgehogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2FC7F21EAE8869005EED81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2FC7FB1EAE8869005EED81 /* HedgehogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F2FC7ED1EAE8869005EED81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F2FC7D61EAE8868005EED81 /* Hedgehog */;
+			targetProxy = 3F2FC7EC1EAE8869005EED81 /* PBXContainerItemProxy */;
+		};
+		3F2FC7F81EAE8869005EED81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F2FC7D61EAE8868005EED81 /* Hedgehog */;
+			targetProxy = 3F2FC7F71EAE8869005EED81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F2FC7DE1EAE8869005EED81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2FC7DF1EAE8869005EED81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F2FC7E31EAE8869005EED81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2FC7E41EAE8869005EED81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F2FC7FD1EAE8869005EED81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F2FC7FE1EAE8869005EED81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F2FC8001EAE8869005EED81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hedgehog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Purple.Hedgehog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F2FC8011EAE8869005EED81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hedgehog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Purple.Hedgehog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F2FC8031EAE8869005EED81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HedgehogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Purple.HedgehogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hedgehog.app/Hedgehog";
+			};
+			name = Debug;
+		};
+		3F2FC8041EAE8869005EED81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HedgehogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Purple.HedgehogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hedgehog.app/Hedgehog";
+			};
+			name = Release;
+		};
+		3F2FC8061EAE8869005EED81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HedgehogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Purple.HedgehogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hedgehog;
+			};
+			name = Debug;
+		};
+		3F2FC8071EAE8869005EED81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HedgehogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Purple.HedgehogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hedgehog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F2FC7D21EAE8868005EED81 /* Build configuration list for PBXProject "Hedgehog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2FC7FD1EAE8869005EED81 /* Debug */,
+				3F2FC7FE1EAE8869005EED81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2FC7FF1EAE8869005EED81 /* Build configuration list for PBXNativeTarget "Hedgehog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2FC8001EAE8869005EED81 /* Debug */,
+				3F2FC8011EAE8869005EED81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F2FC8021EAE8869005EED81 /* Build configuration list for PBXNativeTarget "HedgehogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2FC8031EAE8869005EED81 /* Debug */,
+				3F2FC8041EAE8869005EED81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F2FC8051EAE8869005EED81 /* Build configuration list for PBXNativeTarget "HedgehogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2FC8061EAE8869005EED81 /* Debug */,
+				3F2FC8071EAE8869005EED81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F2FC7CF1EAE8868005EED81 /* Project object */;
+}
