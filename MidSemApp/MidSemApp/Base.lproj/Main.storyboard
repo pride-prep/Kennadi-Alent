@@ -37,35 +37,47 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7C-9Z-CSC">
-                                <rect key="frame" x="63" y="503" width="35" height="30"/>
+                                <rect key="frame" x="98" y="347" width="178" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="1. Kill"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Kill">
+                                    <color key="titleColor" red="0.0" green="0.14610918092462005" blue="0.79497144670050757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="Kill_Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="svV-Ai-gD1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOO-fS-2iP">
-                                <rect key="frame" x="249" y="503" width="86" height="30"/>
+                                <rect key="frame" x="102" y="410" width="171" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="2. Surrender"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Surrender">
+                                    <color key="titleColor" red="0.0" green="0.14610918092462005" blue="0.79497144670050757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="Surrender_Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W12-CJ-lOC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d82-IN-cRJ">
-                                <rect key="frame" x="57" y="574" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="3. Join"/>
-                                <connections>
-                                    <action selector="Join_Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RdE-JW-4GV"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHS-nC-hb9">
-                                <rect key="frame" x="251" y="574" width="82" height="30"/>
+                                <rect key="frame" x="109" y="525" width="157" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="4. Persuade"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Persuade">
+                                    <color key="titleColor" red="0.0" green="0.14610918092462005" blue="0.79497144670050757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="Persuade_Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eJ0-25-Ahl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d82-IN-cRJ">
+                                <rect key="frame" x="121" y="464" width="133" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Join">
+                                    <color key="titleColor" red="0.0" green="0.14610918092462005" blue="0.79497144670050757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Join_Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RdE-JW-4GV"/>
                                 </connections>
                             </button>
                         </subviews>
