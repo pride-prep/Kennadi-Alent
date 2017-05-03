@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func Join_Button(_ sender: Any) {
-        Main.text = "You stand beside Kaladin, and watch in silence as he murders your friends in front of your eyes. Someone sneaks up behind you and kills both you and Kaladin. THE END. "
+        Main.text = "You stand beside Kaladin, and watch in silence as he murders your friends in front of your eyes. Someone sneaks up behind you and kills both you and Kaladin. THE END "
     }
     
     @IBAction func Persuade_Button(_ sender: Any) {
