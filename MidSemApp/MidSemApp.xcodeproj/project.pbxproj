@@ -14,10 +14,9 @@
 		3F4C5DBF1EB282DE007F81F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4C5DBD1EB282DE007F81F1 /* LaunchScreen.storyboard */; };
 		3F4C5DCA1EB282DE007F81F1 /* MidSemAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4C5DC91EB282DE007F81F1 /* MidSemAppTests.swift */; };
 		3F4C5DD51EB282DE007F81F1 /* MidSemAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4C5DD41EB282DE007F81F1 /* MidSemAppUITests.swift */; };
-		3F8805E01EBA6BEF00FB8A6C /* Screen Shot 2017-05-03 at 12.37.46 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8805DE1EBA6BEF00FB8A6C /* Screen Shot 2017-05-03 at 12.37.46 PM.png */; };
-		3F8805E11EBA6BEF00FB8A6C /* Screen Shot 2017-05-03 at 12.38.03 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8805DF1EBA6BEF00FB8A6C /* Screen Shot 2017-05-03 at 12.38.03 PM.png */; };
-		3F8805E41EBA6CFF00FB8A6C /* Screen Shot 2017-05-03 at 12.52.08 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8805E21EBA6CFF00FB8A6C /* Screen Shot 2017-05-03 at 12.52.08 PM.png */; };
-		3F8805E51EBA6CFF00FB8A6C /* Screen Shot 2017-05-03 at 12.54.01 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8805E31EBA6CFF00FB8A6C /* Screen Shot 2017-05-03 at 12.54.01 PM.png */; };
+		3FEBBBF01EBBB9A900E3C2B9 /* Screen Shot 2017-05-04 at 12.32.47 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEBBBEE1EBBB9A900E3C2B9 /* Screen Shot 2017-05-04 at 12.32.47 PM.png */; };
+		3FEBBBF11EBBB9A900E3C2B9 /* Screen Shot 2017-05-04 at 12.33.33 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEBBBEF1EBBB9A900E3C2B9 /* Screen Shot 2017-05-04 at 12.33.33 PM.png */; };
+		3FEBBBF31EBBBB5800E3C2B9 /* Screen Shot 2017-05-04 at 12.40.58 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEBBBF21EBBBB5800E3C2B9 /* Screen Shot 2017-05-04 at 12.40.58 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +50,9 @@
 		3F4C5DD01EB282DE007F81F1 /* MidSemAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidSemAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F4C5DD41EB282DE007F81F1 /* MidSemAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidSemAppUITests.swift; sourceTree = "<group>"; };
 		3F4C5DD61EB282DE007F81F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F8805DE1EBA6BEF00FB8A6C /* Screen Shot 2017-05-03 at 12.37.46 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-03 at 12.37.46 PM.png"; path = "../../../../Desktop/Screen Shot 2017-05-03 at 12.37.46 PM.png"; sourceTree = "<group>"; };
-		3F8805DF1EBA6BEF00FB8A6C /* Screen Shot 2017-05-03 at 12.38.03 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-03 at 12.38.03 PM.png"; path = "../../../../Desktop/Screen Shot 2017-05-03 at 12.38.03 PM.png"; sourceTree = "<group>"; };
-		3F8805E21EBA6CFF00FB8A6C /* Screen Shot 2017-05-03 at 12.52.08 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-03 at 12.52.08 PM.png"; path = "../../../../Desktop/Screen Shot 2017-05-03 at 12.52.08 PM.png"; sourceTree = "<group>"; };
-		3F8805E31EBA6CFF00FB8A6C /* Screen Shot 2017-05-03 at 12.54.01 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-03 at 12.54.01 PM.png"; path = "../../../../Desktop/Screen Shot 2017-05-03 at 12.54.01 PM.png"; sourceTree = "<group>"; };
+		3FEBBBEE1EBBB9A900E3C2B9 /* Screen Shot 2017-05-04 at 12.32.47 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-04 at 12.32.47 PM.png"; path = "../../../../Desktop/Screen Shot 2017-05-04 at 12.32.47 PM.png"; sourceTree = "<group>"; };
+		3FEBBBEF1EBBB9A900E3C2B9 /* Screen Shot 2017-05-04 at 12.33.33 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-04 at 12.33.33 PM.png"; path = "../../../../Desktop/Screen Shot 2017-05-04 at 12.33.33 PM.png"; sourceTree = "<group>"; };
+		3FEBBBF21EBBBB5800E3C2B9 /* Screen Shot 2017-05-04 at 12.40.58 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-05-04 at 12.40.58 PM.png"; path = "../../../../Desktop/Screen Shot 2017-05-04 at 12.40.58 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +106,10 @@
 				3F4C5DB41EB282DE007F81F1 /* AppDelegate.swift */,
 				3F4C5DB61EB282DE007F81F1 /* ViewController.swift */,
 				3F4C5DB81EB282DE007F81F1 /* Main.storyboard */,
-				3F8805E21EBA6CFF00FB8A6C /* Screen Shot 2017-05-03 at 12.52.08 PM.png */,
-				3F8805E31EBA6CFF00FB8A6C /* Screen Shot 2017-05-03 at 12.54.01 PM.png */,
-				3F8805DE1EBA6BEF00FB8A6C /* Screen Shot 2017-05-03 at 12.37.46 PM.png */,
-				3F8805DF1EBA6BEF00FB8A6C /* Screen Shot 2017-05-03 at 12.38.03 PM.png */,
+				3FEBBBF21EBBBB5800E3C2B9 /* Screen Shot 2017-05-04 at 12.40.58 PM.png */,
 				3F4C5DBB1EB282DE007F81F1 /* Assets.xcassets */,
+				3FEBBBEE1EBBB9A900E3C2B9 /* Screen Shot 2017-05-04 at 12.32.47 PM.png */,
+				3FEBBBEF1EBBB9A900E3C2B9 /* Screen Shot 2017-05-04 at 12.33.33 PM.png */,
 				3F4C5DBD1EB282DE007F81F1 /* LaunchScreen.storyboard */,
 				3F4C5DC01EB282DE007F81F1 /* Info.plist */,
 			);
@@ -244,13 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEBBBF01EBBB9A900E3C2B9 /* Screen Shot 2017-05-04 at 12.32.47 PM.png in Resources */,
 				3F4C5DBF1EB282DE007F81F1 /* LaunchScreen.storyboard in Resources */,
-				3F8805E51EBA6CFF00FB8A6C /* Screen Shot 2017-05-03 at 12.54.01 PM.png in Resources */,
 				3F4C5DBC1EB282DE007F81F1 /* Assets.xcassets in Resources */,
+				3FEBBBF11EBBB9A900E3C2B9 /* Screen Shot 2017-05-04 at 12.33.33 PM.png in Resources */,
 				3F4C5DBA1EB282DE007F81F1 /* Main.storyboard in Resources */,
-				3F8805E01EBA6BEF00FB8A6C /* Screen Shot 2017-05-03 at 12.37.46 PM.png in Resources */,
-				3F8805E41EBA6CFF00FB8A6C /* Screen Shot 2017-05-03 at 12.52.08 PM.png in Resources */,
-				3F8805E11EBA6BEF00FB8A6C /* Screen Shot 2017-05-03 at 12.38.03 PM.png in Resources */,
+				3FEBBBF31EBBBB5800E3C2B9 /* Screen Shot 2017-05-04 at 12.40.58 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

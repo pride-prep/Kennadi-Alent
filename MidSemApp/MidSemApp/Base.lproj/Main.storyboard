@@ -28,14 +28,6 @@
                                 <color key="textColor" red="0.62585263324873097" green="0.56625927495075046" blue="0.11437419851496276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bp-sN-FBZ">
-                                <rect key="frame" x="16" y="49" width="343" height="290"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Another option forms in your mind: Try to bring Kaladin over to your side, and stop the destruction of the world where everybody would die at the Chaos Moon. </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Author(s):" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thp-oJ-NGo">
                                 <rect key="frame" x="187" y="636" width="76" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -43,16 +35,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Screen Shot 2017-05-03 at 12.52.08 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="GxX-V0-6QM">
-                                <rect key="frame" x="310" y="626" width="49" height="41"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Screen Shot 2017-05-03 at 12.54.01 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="nkp-Rf-d2C">
-                                <rect key="frame" x="271" y="632" width="31" height="29"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7C-9Z-CSC">
-                                <rect key="frame" x="98" y="379" width="178" height="46"/>
+                                <rect key="frame" x="98" y="343" width="178" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Kill">
@@ -63,7 +47,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOO-fS-2iP">
-                                <rect key="frame" x="102" y="442" width="171" height="46"/>
+                                <rect key="frame" x="102" y="406" width="171" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Surrender">
@@ -74,7 +58,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHS-nC-hb9">
-                                <rect key="frame" x="109" y="557" width="157" height="46"/>
+                                <rect key="frame" x="109" y="521" width="157" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Persuade">
@@ -85,7 +69,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d82-IN-cRJ">
-                                <rect key="frame" x="121" y="496" width="133" height="46"/>
+                                <rect key="frame" x="121" y="460" width="133" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Join">
@@ -95,11 +79,42 @@
                                     <action selector="Join_Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RdE-JW-4GV"/>
                                 </connections>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Screen Shot 2017-05-04 at 12.33.33 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="iWs-z7-YeP">
+                                <rect key="frame" x="275" y="626" width="34" height="33"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="Screen Shot 2017-05-04 at 12.32.47 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="2gj-as-6Nf">
+                                <rect key="frame" x="317" y="625" width="33" height="35"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bp-sN-FBZ">
+                                <rect key="frame" x="16" y="13" width="343" height="290"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Another option forms in your mind: Try to bring Kaladin over to your side, and stop the destruction of the world where everybody would die at the Chaos Moon. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xt-rr-upm">
+                                <rect key="frame" x="16" y="617" width="107" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Restart">
+                                    <color key="titleColor" red="0.27362008594781112" green="0.61862521699999995" blue="0.34191362388174951" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Restart_Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BfH-nX-Cmu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="Main" destination="0bp-sN-FBZ" id="2yl-2g-cFk"/>
+                        <outlet property="Join_Outlet" destination="d82-IN-cRJ" id="iYk-TS-Nh2"/>
+                        <outlet property="Kill_Outlet" destination="P7C-9Z-CSC" id="Naf-bu-f3C"/>
+                        <outlet property="Persuade_Outlet" destination="tHS-nC-hb9" id="yvg-ML-aM9"/>
+                        <outlet property="Restart_Outlet" destination="5Xt-rr-upm" id="HRo-af-yVq"/>
+                        <outlet property="Surrender_Outlet" destination="aOO-fS-2iP" id="DwQ-AY-85F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -108,7 +123,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Screen Shot 2017-05-03 at 12.52.08 PM.png" width="31" height="32"/>
-        <image name="Screen Shot 2017-05-03 at 12.54.01 PM.png" width="31" height="29"/>
+        <image name="Screen Shot 2017-05-04 at 12.32.47 PM.png" width="33" height="35"/>
+        <image name="Screen Shot 2017-05-04 at 12.33.33 PM.png" width="34" height="33"/>
     </resources>
 </document>
