@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     //Label
     @IBOutlet weak var Main: UILabel!
     
+    
+    
    //Outlet Buttons
     @IBOutlet weak var Kill_Outlet: UIButton!
     @IBOutlet weak var Surrender_Outlet: UIButton!
@@ -32,7 +34,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-//Buttons
+//Button Actions
     @IBAction func Kill_Button(_ sender: Any) {
         Main.text = "You and your friends kill Kaladin with magic, that rebounds and kill you all as well. THE END"
         Restart_Outlet.isHidden = false
@@ -73,6 +75,12 @@ class ViewController: UIViewController {
     
     @IBAction func Restart_Button(_ sender: Any) {
         Main.text = "Another option forms in your mind: Try to bring Kaladin over to your side, and stop the destruction of the world where everybody would die at the Chaos Moon. "
+        Restart_Outlet.isHidden = true
+        Kill_Outlet.isHidden = false
+        Surrender_Outlet.isHidden = false
+        Join_Outlet.isHidden = false
+        Persuade_Outlet.isHidden = false
+        
     }
 }
 
